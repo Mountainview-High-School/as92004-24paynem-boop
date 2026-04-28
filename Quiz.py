@@ -1,0 +1,16 @@
+import time
+print("What is your name?")
+username = input()
+print("Hello, " + username + " What is your age?")
+age = input()
+age = int(age)
+if age > 13:
+    print("It is recommended that you try the Cybersmart youth Quiz instead of this one") 
+    time.sleep(2)
+    print("Someone sends you a text that is hurtful and makes you feel bad about yourself. What should you do?")
+    time.sleep(3)
+    print("a. Delete the message and try to forget about it")
+    time.sleep(1)
+    print("b. Keep the text and show an adult you trust")
+    time.sleep(1)
+    print("c. Text the person back saying something mean to them")
