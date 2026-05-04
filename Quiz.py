@@ -26,20 +26,14 @@ a1 = input()
 if a1 == "B":  
     print ("good job")
     points += 10 
+i = 0
+while i < 2:
+  print(q1)
+  i = i + 1
+     
+     
+     
+     
+
 points = str(points)
 print("Well done you have " + str(points) + " points thats alot!")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
