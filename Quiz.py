@@ -10,30 +10,24 @@ if age > 13:
     print("It is recommended that you try the Cybersmart youth Quiz instead of this one") 
     time.sleep(2)
     sys.exit("Ending program")
-    # The program will only be ended if inputed age is under 13 since this is all indented
-time.sleep(2)
-q1 = "Someone sends you a text that is hurtful and makes you feel bad about yourself. What should you do?"
-print(q1)
-time.sleep(3)
-print("a. Delete the message and try to forget about it")
-time.sleep(1.3)
-print("b. Keep the text and show an adult you trust")
-time.sleep(1.3)
-print("c. Text the person back saying something mean to them")
+    # The program will only be ended if inputed age is over 13 since this is all indented
 time.sleep(.5)
-print("A B, or C")
-a1 = input()
-if a1 == "B":  
-    print ("good job")
-    points += 10 
-i = 0
-while i < 2:
-  print(q1)
-  i = i + 1
-     
-     
-     
-     
+print ("Someone sends you a text that is hurtful and makes you feel bad about yourself. What should you do?")
+choices1 = ["a. Delete the message and try to forget about it", "b. Keep the text and show an adult you trust", "c. Text the person back saying something mean to them" ]
+print(choices1[0])
+time.sleep(.5)
+print(choices1[1])
+time.sleep(.5)
+print(choices1[2])
+i=0
+while i<2:
+    print (i)
+    a1 = input()
+    if  a1 == "B" or a1 =="b":  
+        print ("good job") 
+        points += 10 
+    i += 1
 
-points = str(points)
+
+
 print("Well done you have " + str(points) + " points thats alot!")
