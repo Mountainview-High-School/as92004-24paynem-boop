@@ -1,5 +1,5 @@
-userinput = ()
+userinput = input()
 if userinput != "secret123":
-    print("Access Denied!")
-else:
     print("Access Granted!")
+else:
+    print("Access Denied!")

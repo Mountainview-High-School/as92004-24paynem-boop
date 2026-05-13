@@ -19,15 +19,19 @@ time.sleep(.5)
 print(choices1[1])
 time.sleep(.5)
 print(choices1[2])
+time.sleep(1)
+print("Input : A, B or C")
 i=0
-while i<2:
+while i<3:
     print (i)
     a1 = input()
     if  a1 == "B" or a1 =="b":  
         print ("good job") 
-        points += 10 
+        points += 10
+        break 
+    else :
+         print("Incorrect") 
     i += 1
-
-
+print("Loop Ended")
 
 print("Well done you have " + str(points) + " points thats alot!")
