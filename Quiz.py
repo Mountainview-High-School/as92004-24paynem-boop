@@ -27,7 +27,7 @@ while i<3:
     a1 = input()
     if  a1 == "B" or a1 =="b":  
         print ("good job") 
-        points += 10
+        if i ==0: points += 10
         break 
     else :
          print("Incorrect") 
