@@ -12,13 +12,14 @@ if age > 13:
     sys.exit("Ending program")
     # The program will only be ended if inputed age is over 13 since this is all indented
 time.sleep(.5)
-print ("Someone sends you a text that is hurtful and makes you feel bad about yourself. What should you do?")
-choices1 = ["a. Delete the message and try to forget about it", "b. Keep the text and show an adult you trust", "c. Text the person back saying something mean to them" ]
-print(choices1[0])
+questions = ["Someone sends you a text that is hurtful and makes you feel bad about yourself. What should you do?", "You find out somebody has posted an embarrassing picture of you online. What should you do?", "You want to join an online gaming site. Which of the following infomation is okay for you to post on the site"]
+print(questions[0])
+choices = ["a. Delete the message and try to forget about it", "b. Keep the text and show an adult you trust", "c. Text the person back saying something mean to them" ]
+print(choices[0])
 time.sleep(.5)
-print(choices1[1])
+print(choices[1])
 time.sleep(.5)
-print(choices1[2])
+print(choices[2])
 time.sleep(1)
 print("Input : A, B or C")
 i=0
@@ -33,5 +34,8 @@ while i<3:
          print("Incorrect") 
     i += 1
 print("Loop Ended")
+print(questions[1])
+print(questions[2])
+
 
 print("Well done you have " + str(points) + " points thats alot!")
